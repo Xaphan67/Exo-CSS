@@ -1,0 +1,44 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #4c8dcd;
+}
+
+div#name {
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+}
+
+div#social {
+    width: 20%;
+}
+
+div#social img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+li {
+    list-style-type: none;
+    width: 7%;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
